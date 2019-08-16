@@ -290,3 +290,21 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width:500px) {
+  .home .walk {
+    flex-flow: column-reverse;
+    padding: 15px;
+  }
+  .home .walk .walk-img {
+    margin-left: 0;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .home .walk .walk-text {
+    width: 100%;
+  }
+  .home .walk .walk-text .btn {
+    padding: 25px 0px;
+    width: 100%;
+  }
+}

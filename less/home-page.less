@@ -91,5 +91,21 @@
         border-radius: 10px;
       }
     }
+    @media (@phone) {
+      flex-flow: column-reverse;
+      padding: 15px;
+      .walk-img {
+        margin-left: 0;
+        width: 100%;
+        padding-bottom: 15px;
+      }
+      .walk-text {
+        width: 100%;
+        .btn {
+          padding: 25px 0px;
+          width: 100%;
+        }
+      }
+    }
   }
 } // home
