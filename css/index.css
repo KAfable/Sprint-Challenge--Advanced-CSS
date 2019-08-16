@@ -262,6 +262,18 @@ footer {
   color: #5e6164;
   margin-bottom: 26px;
 }
+.home .walk .walk-text .form-group {
+  display: flex;
+  flex-flow: column;
+}
+.home .walk .walk-text .form-group input,
+.home .walk .walk-text .form-group label {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+.home .walk .walk-text .form-group input:hover {
+  cursor: text;
+}
 .home .walk .walk-text .btn {
   background-color: #22283a;
   font-weight: bold;

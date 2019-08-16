@@ -69,6 +69,19 @@
         color: @main-font-color;
         margin-bottom: 26px;
       }
+      .form-group {
+        display: flex;
+        flex-flow: column;
+        input,
+        label {
+          font-size: 1.6rem;
+          margin-bottom: 8px;
+        }
+        input:hover {
+          cursor: text;
+        }
+      }
+
       .btn {
         .btn();
       }
@@ -88,6 +101,7 @@
         border-radius: 10px;
       }
     }
+
     @media (@phone) {
       flex-flow: column-reverse;
       padding: 15px;
@@ -100,7 +114,6 @@
 
       .walk-text {
         width: 100%;
-
         .btn {
           padding: 25px 0px;
           width: 100%;
