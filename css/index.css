@@ -205,6 +205,7 @@ footer {
   padding: 15px;
 }
 .home .intro p {
+  color: #23293B;
   padding: 0 15px;
 }
 .home .space-images {
@@ -225,6 +226,7 @@ footer {
   margin-top: 11px;
 }
 .home .visit-planets p {
+  color: #5E6164;
   margin-top: 13px;
 }
 .home .walk {
@@ -241,6 +243,7 @@ footer {
   margin-bottom: 10px;
 }
 .home .walk .walk-text p {
+  color: #5E6164;
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
