@@ -160,6 +160,32 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav-container {
+  background: #F6F6F6;
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 40%;
+  margin: 0px auto;
+}
+nav h1 {
+  margin: 0 auto;
+  padding: 15px 0px;
+  font-size: 4rem;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+nav ul a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
