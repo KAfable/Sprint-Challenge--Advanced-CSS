@@ -40,16 +40,15 @@ Edit this document to include your answers after each question. Make sure to lea
    Designing desktop first means the primary design for the website is ideally on the desktop, which has a larger screen size and usually more processing power available to it. This is more suitable for a richer media presence and just allowing more elements on the screen to be displayed if needed. However from a development perspective, the code becomes subtractive as you design smaller iterations of the website since the screen real estate shrinks. Pictures or extraneous decorative elements might be removed entirely as the important pieces are prioritized.
    This is in contrast to mobile first, which starts with the arguably most important pieces of the website as a foundation at the base. Then as the screen-sizes grow, the code takes on an additive nature and introduces more styling or elements that were hidden before.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?  
    `font-size: 62.5%` sets the font size to be 10px as the default of 1rem. This makes the math easier when you want a font size to be 22px as it is only 2.2rem instead of trying to find the percent of 22/16.
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS?  
    You can write CSS in a preprocessor in the exact same way as vanilla CSS, but with added benefits of shortcuts, and readability tricks. If you were writing an math textbook, using vanilla CSS is the equivalent of re-writing basic concepts everytime you need it. It becomes unnecessary, unwieldy, hard to read after repeating subtraction for the 100th time. Using a preprocessor is the equivalent of re-writing the textbook so with chapters that you can tell the student to refer back to if they need a refresher, or adding an glossary to the back so they have a quick reference. It increases the readability and reduces redundancy.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-   Favorite concept in preprocessing is Mixins. Concept that gives the most trouble is Mixins.
-
-You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
+   Favorite concept in preprocessing is Mixins. Concept that gives the most trouble is Mixins.  
+   You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
 ## Project Set Up
 
@@ -138,4 +137,4 @@ After finishing your required elements, you can push your work further. These go
 
 - [ ] Create a fixed navigation and add some opacity to the background
 
-- [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+- [x] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
