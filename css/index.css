@@ -255,6 +255,16 @@ footer {
   border: none;
   border-radius: 5px;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 8px 16px;
+  color: #22283A;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #22283A;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
