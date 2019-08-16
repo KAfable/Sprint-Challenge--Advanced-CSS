@@ -247,8 +247,13 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  background: #22283A;
+  background-color: #22283A;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 8px 16px;
+  color: white;
   border: none;
+  border-radius: 5px;
 }
 .home .walk .walk-img {
   width: 46%;
