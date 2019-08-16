@@ -29,6 +29,16 @@
       border-radius: 20px;
       height: 100%;
     }
+    @media (@phone) {
+      img {
+        width: 100%;
+        margin: 20px 5%;
+      }
+      img:nth-child(2),
+      img:nth-child(3) {
+        display: none;
+      }
+    }
   }
 
   .visit-planets {
