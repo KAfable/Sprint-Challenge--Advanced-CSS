@@ -19,8 +19,7 @@
   }
 
   .space-images {
-    display: flex;
-    flex-wrap: wrap;
+    .dfwrap();
     width: 100%;
 
     img {
@@ -58,9 +57,7 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
-    justify-content: center;
-
+    .dfjc();
     .walk-text {
       width: 50%;
 
@@ -76,7 +73,7 @@
         .btn();
       }
       .btn:hover {
-        .btn(@btn-bg-color, white);
+        .btn(@btn-bg-color, white); //reverse colors
         border: 1px solid @btn-bg-color;
       }
     }
@@ -94,13 +91,16 @@
     @media (@phone) {
       flex-flow: column-reverse;
       padding: 15px;
+
       .walk-img {
         margin-left: 0;
         width: 100%;
         padding-bottom: 15px;
       }
+
       .walk-text {
         width: 100%;
+
         .btn {
           padding: 25px 0px;
           width: 100%;
